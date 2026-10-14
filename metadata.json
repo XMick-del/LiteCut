@@ -1,0 +1,6 @@
+{
+  "name": "CapCut Pro PC - Lightweight & Offline Video Editor",
+  "description": "1:1 desktop clone of CapCut Pro optimized for low-end PCs and offline editing with multi-track timeline, proxy rendering, canvas export, and AI Director.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

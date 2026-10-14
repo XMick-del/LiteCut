@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --cc-bg: #121214;
+    --cc-panel: #18181c;
+    --cc-surface: #202026;
+    --cc-surface-hover: #282830;
+    --cc-border: #2c2c36;
+    --cc-cyan: #00f2fe;
+    --cc-cyan-hover: #1ce5f0;
+    --cc-pro-gold: #f5b041;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #32323e #18181c;
+  }
+
+  *::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #18181c;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #32323e;
+    border-radius: 3px;
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #444454;
+  }
+}
+
+/* Custom range slider styling for CapCut audio & timeline zoom */
+input[type="range"] {
+  accent-color: #00f2fe;
+}
+
+/* Timeline scrubbing prevent text highlight */
+.no-select {
+  -webkit-user-select: none;
+  user-select: none;
+}
